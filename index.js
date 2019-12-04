@@ -10,4 +10,3 @@ module.exports = exports = binding;
   *
   * @module Sequelize
   */
-// module.exports = require('./lib/binding/qvconci.node');

@@ -1,0 +1,32 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "qvlib",
+        "scope": null,
+        "escapedName": "qvlib",
+        "name": "qvlib",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      }
+    ]
+  ],
+  "name": "qvlib",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "binary": {
+    "module_name": "qvlib",
+    "module_path": "./lib/binding/{node_abi}-{platform}-{arch}",
+    "host": "https://mapbox-node-binary.s3.amazonaws.com"
+  },
+  "dependencies": {
+    "node-pre-gyp": "^0.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
